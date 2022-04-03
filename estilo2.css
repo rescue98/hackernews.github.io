@@ -1,0 +1,92 @@
+h1{
+
+	border-style: solid;
+	border-width: 5px 10px;
+	margin: 20px 80px;
+	padding: 80px 120px;
+	text-align: center;
+	position: static;
+	
+
+}
+
+body, nav, ul, li ,a  {
+	
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+li{
+	display: inline-block;
+}
+
+nav, ul{
+	list-style-type: none;
+	float: right;
+	padding-right: 80px;
+	padding-top: 10px;
+}
+
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+body{
+	font-family: 'Comic Sans MS'
+}
+
+section{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.container{
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+
+}
+
+.form-group{
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea{
+	width: 100%;
+	padding: 5px;
+	font-size: 18px;
+	border:1px solid rgba(128,128,128,0.199);
+	margin-top: 5px;
+
+}
+
+textarea{
+	resize: vertical;
+
+}
+button[type="submit"]{
+	width: 150px;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 300px;
+}
